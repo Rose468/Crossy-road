@@ -23,7 +23,7 @@ function setup() {
 function draw() {
   background("skyblue");
   countDistanceX =0;
- 
+ gap = 80;
   for(var i =0; i<6; i++){
     var bottomGrass1 = createSprite(683,height-150-(i*400),width,grassHeight);
     if(i%2===0){
