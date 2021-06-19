@@ -32,7 +32,7 @@ function draw() {
 
     }
 
-    bottomGrass1.shapeColor = "grey"
+    bottomGrass1.shapeColor = "green"
   }
  
 for(var i=0; i<40; i++){
