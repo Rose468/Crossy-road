@@ -22,6 +22,7 @@ function setup() {
 
 function draw() {
   background("skyblue");
+  countDistanceX =0;
  
   for(var i =0; i<6; i++){
     var bottomGrass1 = createSprite(683,height-150-(i*400),width,grassHeight);
@@ -39,7 +40,8 @@ for(var i=0; i<40; i++){
   carGroup1.add(cars.spt);
 }
 for(var i=0; i<40; i++){
-  log = new Log(-3);
+  log = new Log(countDistanceX);
+ countDistanceX = countDistanceX + log.width +gap;
   logGroup1.add(log.spt);
 }
 
