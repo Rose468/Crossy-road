@@ -9,6 +9,7 @@ class Log{
         this.spt.velocityX = this.speed;
         this.spt.shapeColor = "brown";
         this.spt.scale=0.1;
+        this.spt.x = this.spt.x -3
     }
 
    
