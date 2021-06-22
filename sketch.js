@@ -36,7 +36,7 @@ function draw() {
   }
  
 for(var i=0; i<40; i++){
-  cars = new Car(2);
+  cars =new Car(2);
   carGroup1.add(cars.spt);
 }
 for(var i=0; i<40; i++){
